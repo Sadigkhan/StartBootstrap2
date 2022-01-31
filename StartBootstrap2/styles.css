@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Header{
+   padding:  36px 0;
+   background-color: #212529;
+   
+  
+  
+}
+
+.headerall .logo{
+    float: left;
+    text-decoration: none;
+    color: rgb(235, 235, 0);
+    font-size: 30px;
+    
+   
+}
+.headerall .navbar{
+    float: right;
+    margin-right: 1rem;
+}
+.headerall .navbar a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: white;
+    padding: 8px;
+    
+    
+}
+.navbar a:hover{
+    color: yellow;
+    transition: 1s;
+}
+#slider{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    padding: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+       
+}
+.slider1 h1{
+    color: white;
+    font-size: 60px;
+}
+.slider1 p{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+.slider1 .btn1{
+    text-decoration: none;
+    border: 30px solid yellow;
+    background-color: yellow;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.service{
+    padding: 6rem;
+
+}
+
+.s {
+    text-align: center;
+    font-size: 40px;
+}
+
+.service h3{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.parts{
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 30px;
+    
+}
+.box{
+   width: 33.3%;
+   float: right;
+   
+   
+}
+
+.pc{
+width: 70px;
+height: 70px;
+border-radius: 100%;
+}
+.txt p{
+    font-size: 16px;
+}
+#prtf{
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 96px;
+    overflow: auto;
+    
+}
+
+.txt2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.txt3{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.p1{
+    width: 32%;
+    float: left;
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+    
+   
+}
+.p11{
+    width: 100%;
+    margin-left: 15px;
+}
+.txt4{
+    margin-top: 1rem;   
+
+}
+.txt5{
+   margin-bottom: 1rem; 
+}
+#team{
+    text-align: center;
+    background-color: #FFFC00;
+    padding: 10rem;
+    margin-bottom: 1rem;
+}
+.team1{
+    margin-bottom: 1rem;
+    font-size: 60px;
+    font-style: italic;
+    color: #6b6a6a;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.team2{
+    margin-bottom: 1rem;
+    font-size: 42px;
+     color: #212529;
+}
+
+#team .team {
+    overflow: auto;
+}
+#team img{
+    width: 60%;
+    height:60%;
+    border-radius: 100%;
+    border: 8px solid rgb(219, 219, 219);
+}
+#team.slider .box{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+#team .slider .box p{
+    color: rgb(112, 111, 111);
+}
+
